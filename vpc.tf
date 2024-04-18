@@ -2,7 +2,7 @@ module "network" {
     source  = "app.terraform.io/jarvis-somerford-tfif-training/network/google"
     version = "1.0.1"
 
-    project_id   = var.project_id
+    project_id   = var.project
     network_name = "gaurav-network"
     routing_mode = "GLOBAL"
 
